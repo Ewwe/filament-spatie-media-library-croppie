@@ -4,10 +4,10 @@ namespace Ewwe\FilamentSpatieMediaLibraryCroppie;
 
 
 use Spatie\LaravelPackageTools\Package;
-
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Illuminate\Support\ServiceProvider;
 
-class FilamentSpatieMediaLibraryCroppieServiceProvider extends ServiceProvider
+class FilamentSpatieMediaLibraryCroppieServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-spatie-media-library-croppie';
 
@@ -25,7 +25,7 @@ class FilamentSpatieMediaLibraryCroppieServiceProvider extends ServiceProvider
     {
         $package->name(static::$name)
             ->hasAssets()
-            ->hasViews('filament-spatie-media-library-croppie')
+            //->hasViews('filament-spatie-media-library-croppie')
             ->hasTranslations();
     }
 }
