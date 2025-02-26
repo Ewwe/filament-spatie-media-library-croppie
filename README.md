@@ -1,7 +1,7 @@
 # Filament Spatie Media Library Croppie Plugin
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/josefbehr/filament-spatie-media-library-croppie.svg?style=flat-square)](https://packagist.org/packages/josefbehr/filament-spatie-media-library-croppie)
-[![Total Downloads](https://img.shields.io/packagist/dt/josefbehr/filament-spatie-media-library-croppie.svg?style=flat-square)](https://packagist.org/packages/josefbehr/filament-spatie-media-library-croppie)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ewwe/filament-spatie-media-library-croppie.svg?style=flat-square)](https://packagist.org/packages/ewwe/filament-spatie-media-library-croppie)
+[![Total Downloads](https://img.shields.io/packagist/dt/ewwe/filament-spatie-media-library-croppie.svg?style=flat-square)](https://packagist.org/packages/ewwe/filament-spatie-media-library-croppie)
 
 
 ## Installation
@@ -9,14 +9,14 @@
 You can install the package via composer (no need to install croppie as well as its assets are bundled):
 
 ```bash
-composer require josefbehr/filament-spatie-media-library-croppie
+composer require ewwe/filament-spatie-media-library-croppie
 ```
 
 To use outside filament (e.g. with just the forms package), add the js and css to your vite (or mix) config:
 ```html
 @vite([
-    'vendor/josefbehr/filament-spatie-media-library-croppie/resources/dist/js/filament-spatie-media-library-croppie.js',
-    'vendor/josefbehr/filament-spatie-media-library-croppie/resources/dist/css/filament-spatie-media-library-croppie.css',
+    'vendor/ewwe/filament-spatie-media-library-croppie/resources/dist/js/filament-spatie-media-library-croppie.js',
+    'vendor/ewwe/filament-spatie-media-library-croppie/resources/dist/css/filament-spatie-media-library-croppie.css',
     ...
 ])
 ```
