@@ -4,9 +4,6 @@
     :label="$getLabel()"
     :label-sr-only="$isAvatar() || $isLabelHidden()"
     :helper-text="$getHelperText()"
-    :hint-action="$getHintAction()"
-    :hint-color="$getHintColor()"
-    :hint-icon="$getHintIcon()"
     :required="$isRequired()"
     :state-path="$getStatePath()"
 >
@@ -31,10 +28,6 @@
         <div
             x-data="fileUploadFormComponent({
             acceptedFileTypes: {{ json_encode($getAcceptedFileTypes(), JSON_THROW_ON_ERROR) }},
-            canDownload: {{ $canDownload() ? 'true' : 'false' }},
-            canOpen: {{ $canOpen() ? 'true' : 'false' }},
-            canPreview: {{ $canPreview() ? 'true' : 'false' }},
-            canReorder: {{ $canReorder() ? 'true' : 'false' }},
             deleteUploadedFileUsing: async (fileKey) => {
                 fileHasDeleted = true;
                 fileHasUploaded = false;
