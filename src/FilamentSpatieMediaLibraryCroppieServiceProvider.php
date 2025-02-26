@@ -28,4 +28,10 @@ class FilamentSpatieMediaLibraryCroppieServiceProvider extends PackageServicePro
             //->hasViews('filament-spatie-media-library-croppie')
             ->hasTranslations();
     }
+
+
+    public function boot(): void {
+        parent::boot();
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'filament-spatie-media-library-croppie');
+    }
 }
