@@ -1,6 +1,6 @@
 <?php
 
-namespace JosefBehr\FilamentSpatieMediaLibraryCroppie;
+namespace Ewwe\FilamentSpatieMediaLibraryCroppie;
 
 
 use Spatie\LaravelPackageTools\Package;
